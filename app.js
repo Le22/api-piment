@@ -7,7 +7,7 @@ const authRoutes = require('./routes/auth');
 
 const path = require('path');
 
-mongoose.connect('mongodb+srv://loulou22:Md-22-le@cluster0-zad8o.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussi !'))
