@@ -7,12 +7,16 @@ const authRoutes = require('./routes/auth');
 
 const path = require('path');
 
+<<<<<<< HEAD
 const dotenv = require("dotenv");
 dotenv.config();
 
 const MONGODB = process.env.MONGODB;
 
 mongoose.connect(MONGODB,
+=======
+mongoose.connect('',
+>>>>>>> bbe79691eda688cfefaad8b223a7ac9b021c9b23
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussi !'))
