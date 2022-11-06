@@ -1,6 +1,7 @@
 # api-piment
 
 L'API Piment permet aux utilisateurs d'ajouter leurs sauces pimentées favorites dans la base de données.
+
 L'API comprend également un système de like/dislike qui permet à chaque utilisateur de donner son avis sur les autres sauces présentes dans la DB.
 
 ## Installation
